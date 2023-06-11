@@ -1,0 +1,111 @@
+{
+  "data" : 
+  {
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+      "type": "bubble",
+      "size": "giga",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "MENU",
+            "align": "center"
+          }
+        ],
+        "position": "relative"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Current Status",
+              "uri": "https://bound-web-app.netlify.app/result/"
+            },
+            "position": "relative",
+            "style": "primary",
+            "height": "sm",
+            "margin": "none",
+            "flex": 1
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Input Data",
+              "uri": "https://bound-web-app.netlify.app/input/"
+            },
+            "flex": 1,
+            "position": "relative",
+            "style": "primary",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Create New Challenge",
+              "uri": "https://bound-web-app.netlify.app/"
+            },
+            "style": "primary",
+            "height": "sm",
+            "position": "relative"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Add New Participants",
+              "uri": "http://linecorp.com/"
+            },
+            "position": "relative",
+            "style": "primary",
+            "height": "sm",
+            "flex": 1
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "About BOUND",
+              "uri": "http://linecorp.com/"
+            },
+            "position": "relative",
+            "style": "primary",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Health Tips",
+              "uri": "http://linecorp.com/"
+            },
+            "position": "relative",
+            "style": "primary",
+            "height": "sm"
+          }
+        ],
+        "position": "relative",
+        "spacing": "lg"
+      },
+      "action": {
+        "type": "uri",
+        "label": "action",
+        "uri": "http://linecorp.com/"
+      },
+      "styles": {
+        "body": {
+          "separator": false
+        }
+      }
+    }
+  }
+}
